@@ -1,0 +1,98 @@
+body {
+  background-color: rgb(168, 213, 253);
+}
+
+#memeGenerator {
+  margin: 20px auto;
+  width: 400px;
+  background-color: rgb(192, 245, 232);
+  border-radius: 5%;
+  border-color: rgb(0, 0, 0);
+  border-style: dashed;
+  font-family: "Montserrat", sans-serif;
+}
+
+#memeGenerator label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#memeGenerator input {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+#btn {
+  margin-left: 40%;
+  margin-bottom: 2%;
+}
+
+.memeContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+#newMeme {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(160, 220, 248);
+  width: 500px;
+  height: 500px;
+  border-radius: 5%;
+}
+
+#newMeme:hover {
+  opacity: 0.5;
+  content: "\00d7";
+}
+
+#topTextElement {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  position: relative;
+  text-align: center;
+  top: 4%;
+  word-wrap: break-word;
+  color: #ffffff;
+  text-shadow: rgb(0, 0, 0) 3px 0px 0px, rgb(0, 0, 0) 2.83487px 0.981584px 0px,
+    rgb(0, 0, 0) 2.35766px 1.85511px 0px, rgb(0, 0, 0) 1.62091px 2.52441px 0px,
+    rgb(0, 0, 0) 0.705713px 2.91581px 0px,
+    rgb(0, 0, 0) -0.287171px 2.98622px 0px,
+    rgb(0, 0, 0) -1.24844px 2.72789px 0px, rgb(0, 0, 0) -2.07227px 2.16926px 0px,
+    rgb(0, 0, 0) -2.66798px 1.37182px 0px, rgb(0, 0, 0) -2.96998px 0.42336px 0px,
+    rgb(0, 0, 0) -2.94502px -0.571704px 0px,
+    rgb(0, 0, 0) -2.59586px -1.50383px 0px,
+    rgb(0, 0, 0) -1.96093px -2.27041px 0px,
+    rgb(0, 0, 0) -1.11013px -2.78704px 0px,
+    rgb(0, 0, 0) -0.137119px -2.99686px 0px,
+    rgb(0, 0, 0) 0.850987px -2.87677px 0px,
+    rgb(0, 0, 0) 1.74541px -2.43999px 0px, rgb(0, 0, 0) 2.44769px -1.73459px 0px,
+    rgb(0, 0, 0) 2.88051px -0.838247px 0px;
+}
+
+#bottomTextElement {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  position: relative;
+  text-align: center;
+  bottom: -80%;
+  word-wrap: break-word;
+  color: #ffffff;
+  text-shadow: rgb(0, 0, 0) 3px 0px 0px, rgb(0, 0, 0) 2.83487px 0.981584px 0px,
+    rgb(0, 0, 0) 2.35766px 1.85511px 0px, rgb(0, 0, 0) 1.62091px 2.52441px 0px,
+    rgb(0, 0, 0) 0.705713px 2.91581px 0px,
+    rgb(0, 0, 0) -0.287171px 2.98622px 0px,
+    rgb(0, 0, 0) -1.24844px 2.72789px 0px, rgb(0, 0, 0) -2.07227px 2.16926px 0px,
+    rgb(0, 0, 0) -2.66798px 1.37182px 0px, rgb(0, 0, 0) -2.96998px 0.42336px 0px,
+    rgb(0, 0, 0) -2.94502px -0.571704px 0px,
+    rgb(0, 0, 0) -2.59586px -1.50383px 0px,
+    rgb(0, 0, 0) -1.96093px -2.27041px 0px,
+    rgb(0, 0, 0) -1.11013px -2.78704px 0px,
+    rgb(0, 0, 0) -0.137119px -2.99686px 0px,
+    rgb(0, 0, 0) 0.850987px -2.87677px 0px,
+    rgb(0, 0, 0) 1.74541px -2.43999px 0px, rgb(0, 0, 0) 2.44769px -1.73459px 0px,
+    rgb(0, 0, 0) 2.88051px -0.838247px 0px;
+}
